@@ -1,208 +1,172 @@
 # Compassion Compass
 
-Compassion Compass is a community-centered platform designed to connect people, organizations, ministries, and volunteers around meaningful opportunities to serve, support, and strengthen their communities.
+Compassion Compass is a mobile-friendly community resource directory that helps people find assistance across the Portland metropolitan area.
 
-The goal is simple: make it easier to find needs, offer help, coordinate resources, and create lasting positive impact.
-
-## Vision
-
-Communities become stronger when compassion is organized into action.
-
-Compassion Compass helps individuals and organizations:
-
-- Discover local needs
-- Coordinate outreach efforts
-- Track service opportunities
-- Support vulnerable populations
-- Build stronger community connections
-- Measure impact over time
+The application brings together information about local services, support organizations, and community resources in a simple, searchable experience designed to help people quickly connect with the help they need.
 
 ---
 
-## Core Features
+## Purpose
 
-### Community Support
+Finding help during difficult times can be overwhelming.
 
-- Find local service opportunities
-- Identify community needs
-- Connect volunteers with organizations
-- Coordinate assistance efforts
+Compassion Compass makes it easier to discover local resources by organizing support services into accessible categories and providing quick access to contact information, websites, directions, and emergency assistance.
 
-### Resource Network
+The goal is simple:
 
-- Share resources and information
-- Recommend trusted community services
-- Map available support options
-- Improve access to assistance programs
-
-### Volunteer Engagement
-
-- Volunteer sign-up and coordination
-- Opportunity management
-- Community outreach tracking
-- Service history and participation records
-
-### Organization Tools
-
-- Create and manage initiatives
-- Publish needs and requests
-- Coordinate volunteers
-- Monitor engagement and outcomes
-
-### Impact Tracking
-
-- Service activity tracking
-- Community engagement metrics
-- Program participation reporting
-- Outcome measurement
+**Help people find help.**
 
 ---
 
-## Technology Stack
+## Current Features
 
-- React
-- TypeScript
-- Supabase
-- PostgreSQL
-- Authentication
-- Cloud Storage
-- Real-time Data Synchronization
+### Resource Directory
+
+Browse community resources across multiple categories through a mobile-first interface.
+
+Features include:
+
+- Searchable resource listings
+- Category-based navigation
+- Resource quality indicators
+- Quick contact actions
+- Website links
+- Directions and location access
+- Sharing capabilities
+
+---
+
+### Emergency Access
+
+Fast access to urgent support resources.
+
+Current emergency actions include:
+
+- 911 emergency services
+- 988 Suicide & Crisis Lifeline
+
+---
+
+### Category Navigation
+
+Resources are organized into categories for easier discovery and browsing.
+
+The application includes:
+
+- Search and filtering
+- Category cards
+- Resource counts
+- Quick access navigation
+
+---
+
+### Weather Alerts
+
+The platform includes severe weather awareness capabilities to help surface important information during emergencies.
+
+---
+
+### Community News
+
+A built-in news and information area highlights important local updates and community information.
+
+---
+
+### Language Support
+
+Compassion Compass supports bilingual access with:
+
+- English
+- Spanish
+- Quick language switching
+
+---
+
+### Mobile & PWA Experience
+
+The application is designed as a Progressive Web App (PWA) and supports:
+
+- Mobile devices
+- Home screen installation
+- Responsive layouts
+- Offline-ready architecture
+
+---
+
+## Accessibility
+
+Compassion Compass is designed to be accessible and easy to navigate with:
+
+- Mobile-first layouts
+- Accessible focus states
+- Large touch targets
+- Clear visual navigation
+- High-visibility emergency actions
+
+---
+
+## Technology
+
+Current implementation includes:
+
+- HTML
+- CSS
+- JavaScript
+- Progressive Web App (PWA)
+- Mobile web support
+- Installable application experience
 
 ---
 
 ## Project Structure
 
 ```text
-src/
-├── components/
-├── pages/
-├── services/
-├── hooks/
-├── utils/
-├── types/
-└── assets/
+index.html
+manifest.webmanifest
+icon-192.png
+service worker assets
+resource data
+styles
+scripts
 ```
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (LTS)
-- npm
-- Supabase Account
-
-### Installation
-
-```bash
-git clone https://github.com/dwbrown503/compassion-compass.git
-
-cd compassion-compass
-
-npm install
-```
-
-### Environment Variables
-
-Create a `.env.local` file:
-
-```env
-SUPABASE_URL=YOUR_SUPABASE_URL
-SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-```
-
-### Start Development Server
-
-```bash
-npm run dev
-```
-
----
-
-## Database
-
-Recommended tables:
-
-```text
-profiles
-organizations
-volunteers
-opportunities
-resource_requests
-community_needs
-service_records
-messages
-```
-
-All user data should be protected using Row Level Security (RLS).
-
----
-
-## Security
-
-Compassion Compass is designed with privacy and security in mind.
-
-- Secure authentication
-- Role-based permissions
-- Encrypted connections
-- Protected community data
-- Row Level Security policies
-
----
-
-## Roadmap
-
-### Phase 1
-
-- Authentication
-- User profiles
-- Organization profiles
-- Opportunity listings
-
-### Phase 2
-
-- Volunteer management
-- Resource directory
-- Request matching
-
-### Phase 3
-
-- Messaging
-- Notifications
-- Mobile experience
-
-### Phase 4
-
-- Analytics
-- Community impact reporting
-- AI-assisted recommendations
-
-### Phase 5
-
-- Regional partnerships
-- Multi-organization collaboration
-- Advanced reporting
-
----
-
-## Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Submit a pull request
 
 ---
 
 ## Mission
 
-Compassion Compass exists to help communities transform care, concern, and compassion into meaningful action by connecting people with opportunities to serve and support one another.
+Compassion Compass exists to help residents of the Portland metropolitan area discover trusted services, navigate community resources, and connect with organizations that provide support when it is needed most.
+
+---
+
+## Vision
+
+A community where every person can quickly find reliable information, essential services, and pathways to support through a simple and accessible digital guide.
+
+---
+
+## Planned Enhancements
+
+Future development may include:
+
+- Expanded resource database
+- Real-time service updates
+- User accounts
+- Saved resources
+- Personalized recommendations
+- Additional language support
+- Enhanced accessibility features
+- Community organization partnerships
+
+---
+
+## Disclaimer
+
+Compassion Compass provides information about community resources and support services. Resource availability, eligibility requirements, and operating hours may change. Users should contact organizations directly for the most current information.
+
+For emergencies, call 911. For mental health crises, call or text 988.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License
