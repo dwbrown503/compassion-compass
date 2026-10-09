@@ -16,7 +16,7 @@ Judge every change by one question: could someone with a cheap phone, little bat
 4. Every change to the look, design or content of the site, videos or promo material is approved by the owner first. Propose it, wait for a yes, then build it.
 5. No 211 button and no 211 call link.
 6. Portland metro only. No listings outside the metro area.
-7. Keep the 8 categories in the owner's order: shelter, food, medical, crisis, recovery, daily, money, misc. Do not reorder, rename, add or remove categories.
+7. Keep the 8 categories in the owner's order and with these titles: Shelter, Food, Medical, Crisis, Recovery, Daily Needs, Monetary Resources, Miscellaneous. (Their keys in the code are shelter, food, medical, crisis, recovery, daily, money, misc.) Do not reorder, rename, add or remove categories.
 8. "Always call first" appears on every listing, on every language page.
 9. The scheduled data refresh changes only compass-data.json, never the HTML pages.
 10. Keep it free: nothing that costs users money, and no accounts, logins, paywalls or sign-up walls for people looking for help.
